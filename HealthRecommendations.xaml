@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BMICalculatorMobileApp.HealthRecommendations"
+             Title="HealthRecommendations">
+    <ScrollView>
+    <VerticalStackLayout Spacing="20">
+        <Label FontSize="40" Text="Heath Recommendations: " VerticalOptions="Center" HorizontalOptions="Center" />
+        <Label FontSize="20" x:Name="lblHeathRecommendations" VerticalOptions="Center" HorizontalOptions="Center" />
+        <Button Text="Back To Home" VerticalOptions="End" HorizontalOptions="Center" 
+            Clicked="Button_Clicked" />
+        <Button Text="Back" VerticalOptions="End" HorizontalOptions="Center"
+            Clicked = "Button_Clicked_1"/>
+    </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
